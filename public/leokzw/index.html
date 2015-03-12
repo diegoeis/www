@@ -44,25 +44,66 @@
       </section>
     </div>
 
+    <div class="donation-form p4">
+      <section class="clearfix container">
+            
+      <div class="goal-numbers mb4 center">
+        <h3 class="caps mt0">Valor arrecadado</h3>
+        <span class="goal-reached">R$ 38.000</span>
+        <span class="goal-value">de R$ 70.000</span>
+      </div>
+      <hr>
+      <div class="mt4">
+        <form class="center sm-col sm-col-3 paypal-donation" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input name="cmd" value="_s-xclick" type="hidden">
+          <input name="hosted_button_id" value="RB36L9HYBG5K8" type="hidden">
+          <input src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!" border="0" type="image">
+          <img alt="" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" border="0" height="1" width="1">
+        </form>
+
+        <form class="center sm-col sm-col-3 pagseguro-donation" action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+          <input name="currency" value="BRL" type="hidden">
+          <input name="receiverEmail" value="leonardo.kzw@gmail.com" type="hidden">
+          <input src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" type="image">
+        </form>
+
+        <div class="sm-col sm-col-3 right-align">
+          <p>
+            <strong>Itaú</strong>
+            Agência: 7371<br>
+            Conta: 10452-7
+          </p>
+        </div>  
+        <div class="sm-col sm-col-3 right-align">
+          <p>
+            <strong>Banrisul</strong>
+            Agência: 0028<br>
+            Conta: 35.039831.0-5<br>
+            CPF: 033.020.920-59
+          </p>
+        </div>  
+
+      </section>
+      </div>
+    </div>
+
     <div class="p4 bg-darken-1" id="initiatives">
       <section class="clearfix container mb3">
         <h1 class="caps">Iniciativas</h1>
         <p>São cursos, conferências e palestras que você adquirir para nos ajudar a levantar fundos para a campanha.</p>
-      </section>
+        <hr class="mb4 mt4">
 
-      <section class="clearfix container">
-        <div class="mb3 center">
+        <div class="sm-col sm-col-4 center mb4">
           <h2 class="h1 caps visuallyhidden">Devs pelo leokz</h2>
           <img src="./assets/images/devsforleokz_logo.svg" title="Devs pelo leokz">
         </div>
 
-        <div class="mb3">
+        <div class="mb4 sm-col sm-col-8">
           <p>Em parceria com a <a href="http://eventials.com.br">Eventials</a> estamos organizando uma conferência online com diversos desenvolvedores brasileiros.</p>
           <p>O valor da inscrição é de <span class="bold inline-block px1 white bg-green rounded">R$ 50,00</span> e todo o dinheiro arrecadado será revertido para a campanha do Leonardo.</p>
         </div>
 
-        <div>
-          <h2 class="caps mb3">Palestrantes</h2>
+          <h2 class="caps mb3 clear-both">Palestrantes</h2>
           <ul class="list-reset clearfix" style="margin-left: -15px;">
             <li class="col col-6 sm-col-4 md-col-3 lg-col-3 px2 mb2">
               <a class="p1 button-transparent yellow bg-white border rounded block" href="https://twitter.com/caio_gondim">
@@ -113,7 +154,6 @@
               </a>
             </li>
           </ul>
-        </div>
 
         <div>
           <a href="#initiatives" class="h3 button button-big bg-yellow mt1 mb3">Inscreva-se já!</a>

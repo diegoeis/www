@@ -16,3 +16,36 @@ p {
 .caps {
   letter-spacing: -.01em
 }
+
+.donation-form div p {
+  font-weight: lighter;
+}
+
+.donation-form div p strong {
+  display: block;
+  font-size: 25px;
+}
+
+.goal-numbers h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.goal-numbers span {
+  display: block;
+}
+
+.goal-reached {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.goal-value {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.clear-both {
+  clear: both;
+}
